@@ -28,7 +28,7 @@ function setUserName() {
     setUserName();
   } else {
     localStorage.setItem("name", myName);
-    myHeading.textContent = `'cuz Yale fucking rules, ${myName}`;
+    myHeading.textContent = `'cuz Yale rules, ${myName}`;
     myButton.classList.add("hidden");
     mySecondButton.classList.remove("hidden");
   }
