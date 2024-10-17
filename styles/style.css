@@ -1,0 +1,81 @@
+/* CSS Selectors: 
+select all elements of a type
+ex: p ---> <p> 
+ex: html ---> everything!
+
+select an element with a specific id
+ex: #my-id ---> <p id="my-id">
+
+select all elements in a class
+ex: .my-class ---> <p class="my-class">
+
+select an element with a specific attribute
+ex: img[src] ---> <img src="myimage.png"> but not <img>
+
+select an element but only in the specified state
+ex: a:hover ---> selects a but only when mouse hovers over the link
+*/
+
+html { /* Defaults */
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    background-color: white;
+}
+
+body {
+    height: 60%;
+    width: 60%;
+    margin: 5px auto;
+    background-color: #00356b;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+  }
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: white;
+  text-shadow: 3px 3px 1px black;
+  font-size: 60px;
+  text-align: center;
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+.centerImg {
+    display: block;
+    margin: 0 auto;
+    width: 95%;
+}
+
+img {
+    border:5px solid white;
+}
+
+button {
+    color:black;
+    background-color:white;
+    font-size: 20px;
+    width: 300px;
+    height: 50px;
+    padding: 10px 10px 10px 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+#nameHere:hover {
+    background-color: azure;
+}
+
+#website:hover {
+    background-color:azure;
+}
+
+.hidden {
+    display: none;
+}
